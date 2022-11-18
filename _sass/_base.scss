@@ -64,6 +64,8 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 
   img {
     width: 100%;
@@ -255,6 +257,7 @@ blockquote {
   .contact-icons {
     font-size: 2rem;
     a {
+      margin: 0 0.5rem;
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -271,6 +274,10 @@ blockquote {
   }
 }
 
+// Divider
+.divider {
+  border-top: 1px solid var(--global-divider-color);
+}
 
 // Footer
 footer.fixed-bottom {

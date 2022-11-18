@@ -13,6 +13,9 @@
             {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
             {% endif %}
+            {% if content.author %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.8rem;">{{content.author}}</h6>
+            {% endif %}
             {% if content.institution %}
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">{{content.institution}}</h6>
             {% endif %}
@@ -20,7 +23,16 @@
               <ul class="items">
                 {% for item in content.description %}
                   <li>
-                    {% if item.contents %}
+                    {% if item.key %}
+                      <span class="item"><span class="font-weight-bolder">{{ item.key }}</span>: {{ item.value }}</span>
+                      {% if item.contents %}
+                      <ul class="subitems">
+                      {% for subitem in item.contents %}
+                        <li><span class="subitem">{{ subitem }}</span></li>
+                      {% endfor %}
+                      </ul>
+                      {% endif %}
+                    {% elsif item.contents %}
                       <span class="item-title">{{ item.title }}</span>
                       <ul class="subitems">
                       {% for subitem in item.contents %}
