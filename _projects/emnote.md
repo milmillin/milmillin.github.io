@@ -2,12 +2,25 @@
 layout: page
 title: Emnote
 description: The nicest handwritten note-taking application on Windows.
-img: assets/img/3.jpg
+img: assets/img/emnote-cover-basic.png
 importance: 2
 category: personal
+selected: true
 ---
 
-**Emnote** is a handwritten note-taking application on Windows (think [GoodNotes](https://www.goodnotes.com/) or [Notability](https://notability.com/) for Windows). Visit our [website](https://emnote.app/) for more details or visit our [Microsoft Store Page](www.microsoft.com/store/apps/9MVP05J1FLV3?cid=personal_web) to try Emnote on your computer for *free*.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/emnote-cover.png" title="Emnote" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+**Emnote** is a handwritten note-taking application on Windows (think [GoodNotes](https://www.goodnotes.com/) or [Notability](https://notability.com/) for Windows).
+
+Visit our website or our Microsoft Store page to try Emnote for **free**.
+<div class="links">
+<a href="https://emnote.app" class="btn btn-sm z-depth-0" role="button">Website</a>
+<a href="https://www.microsoft.com/store/apps/9MVP05J1FLV3?cid=personal_web" class="btn btn-sm z-depth-0" role="button">Microsoft Store</a>
+</div>
 
 ---
 

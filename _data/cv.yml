@@ -79,7 +79,35 @@
 - title: Projects
   type: time_table
   contents:
-    - title: TBA
+    - title: Emnote — Handwritten Note-taking Application
+      year: 2018 - Present
+      description_nl:
+        Designed and implemented a handwritten note-taking app for Windows, a OneNote alternative with pages and nice PDF
+        imports. The app was implemented in C#, XAML, and UWP; and is available at https://emnote.app and at the
+        Microsoft Store with 5,000+ downloads.
+    - title: Loop Termination Branch Predictor for RISC-V Processor
+      year: 2021
+      description_nl:
+        Implemented the Loop Termination Buffer and integrated with BlackParrot, an open source multicore RISC-V processor.
+        The buffer correctly predicts the end of the inner for-loops with constant number of iterations and is able to improve the
+        overall branch prediction accuracy.
+    - title: Alumni Directory Website
+      year: 2020
+      description_nl:
+        Designed and developed an alumni directory website for high school using React and Firebase. Alums can enter their
+        education and career in the website. Current students can custom search alums with specific attributes that best suit their
+        goals. The site is available at kvis-alumni.web.app.
+    - title: 5-Stage Pipelined RISC-V 32I Processor
+      year: 2021
+      description_nl:
+        Implemented from scratch a 5-stage pipelined RISC-V 32I Processor in SystemVerilog. The implementation was tested on
+        an FPGA and was able to run arbitrary C code compiled to RISC-V binaries.
+    - title: Automatic Text Summarizer
+      year: 2016
+      description_nl:
+        Developed a deep neural network model that automatically summarizes documents into a single paragraph using Python.
+        The model uses features such as word frequency, position, and part of speech to determine the importance of a sentence.
+        It helped screening research papers during my high school.
 
 - title: Skills
   type: map
@@ -90,20 +118,3 @@
       value: Git, CMake, OpenMP, CGAL, Libigl, PyTorch, React, Jekyll, Firebase
     - name: General
       value: Algorithms, Data Structures, Web Programming, Deep Learning
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -5,6 +5,7 @@ description: My long journey and achievement in programming competitions.
 img: assets/img/comp-prog.jpg
 importance: 1
 category: personal
+selected: true
 ---
 
 For those who don't know, competitive programming is a sport where programmers compete by solving given problems within a given time (usually 3 to 5 hours). Winners are typically determined by the number of problems solved and the time it takes to solve them. The problems are designed to not only test participant's knowledge of algorithms and data structures but also their ability to choose the right ones to solve the problems (think interview questions from a tech company but much harder).
