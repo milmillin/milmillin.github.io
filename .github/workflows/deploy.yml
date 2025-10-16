@@ -28,7 +28,6 @@ jobs:
         run: |
           npm install -g mermaid.cli
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Deploy 🚀
