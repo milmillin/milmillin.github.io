@@ -3,7 +3,7 @@ layout: page
 title: Emnote
 description: The nicest handwritten note-taking application on Windows.
 img: assets/img/emnote-cover-basic.png
-importance: 2
+importance: 3
 category: personal
 selected: true
 ---

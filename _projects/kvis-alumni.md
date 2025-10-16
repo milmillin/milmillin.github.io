@@ -3,7 +3,7 @@ layout: page
 title: KVIS Alumni Website
 description: A community of graduated KVIS students.
 img: assets/img/kvis-alumni-listing.png
-importance: 3
+importance: 4
 category: personal
 ---
 

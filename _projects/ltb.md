@@ -3,7 +3,7 @@ layout: page
 title: Loop Termination Buffer
 description: A SystemVerilog implementation of Loop Termination Buffer, an extension to branch predictor, on BlackParrot processor.
 img: assets/img/ltb.png
-importance: 3
+importance: 5
 category: class
 selected: true
 ---
