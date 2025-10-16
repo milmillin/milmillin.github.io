@@ -3,7 +3,7 @@ layout: page
 title: Competitive Programming
 description: My long journey and achievement in programming competitions.
 img: assets/img/comp-prog.jpg
-importance: 1
+importance: 2
 category: personal
 selected: true
 ---
