@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Milin is a Ph.D. student in Computer Science at the University of Washington (UW), Seattle. He is advised by Professor [Adriana Schulz](https://homes.cs.washington.edu/~adriana/) and is a part of Graphics and Imaging Laboratory Lab ([GRAIL](https://grail.cs.washington.edu/)). Milin's interests are in the domain of computational design and fabrication, where we use computational tools to complement advanced manufacturing techniques, like CNC machines, knitting machines, and 3D printing, to build novel physical artifacts. Currently, his research focuses on representations for computer-aided design (CAD) for optimization and editing.
 
-**Milin is currently looking for an internship opportunity as a research assistant. You can take a look at my [CV](/cv/). Please don't hesitate to email me at [milink [at] cs.washington.edu](mailto:milink [at] cs.washington.edu).**
+**Milin is currently looking for an internship opportunity as a research assistant. You can take a look at my [CV](/assets/pdf/mkodnongbua-cv-202510.pdf). Please don't hesitate to email me at [milink [at] cs.washington.edu](mailto:milink [at] cs.washington.edu).**
 
 Milin is also an active competitive programmers since 2017 with multiple honors. His team, representing the University of Washington, placed in the top 10 in the [ICPC North America Championship 2022](https://nac.icpc.global/) and received honorable mention in the ICPC World Finals 2022 in Luxor, Egypt. Milin was the coach for 2023--2025 UW ICPC teams.
 
