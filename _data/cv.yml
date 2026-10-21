@@ -3,7 +3,7 @@
   contents:
     - title: Ph.D. in Computer Science
       institution: University of Washington, Seattle, USA
-      year: 2022 - Present
+      year: 2022 - 2027 (expected)
       description:
         - key: Advisor
           value: Professor Adriana Schulz at GRAIL
@@ -20,6 +20,24 @@
 - title: Publications
   type: time_table
   contents:
+    - title: "Diceplay: A Modular Canvas for Physical Image Composition"
+      author: Milin Kodnongbua, Zihan Zhang, Shishi Xiao, et al. SIGGRAPH 2026 Conference Papers.
+      year: 2026
+    - title: "Design for Descent: What Makes a Shape Grammar Easy to Optimize?"
+      author: Milin Kodnongbua, Zihan Zhang, Nicholas Sharp, Adriana Schulz. SIGGRAPH Asia 2025 Conference Papers.
+      year: 2025
+    - title: Dense Server Design for Immersion Cooling
+      author: Milin Kodnongbua, Zachary Englhardt, Ricardo Bianchini, et al. ACM Transactions on Graphics (SIGGRAPH Asia 2024).
+      year: 2024
+    - title: "ReparamCAD: Zero-shot CAD Re-Parameterization for Interactive Manipulation"
+      author: Milin Kodnongbua, Benjamin Jones, Maaz Ahmad, Vladimir Kim, Adriana Schulz. SIGGRAPH Asia 2023 Conference Papers.
+      year: 2023
+    - title: B-Rep Matching for Collaborating Across CAD Systems
+      author: Benjamin Jones, James Noeckel, Milin Kodnongbua, Ilya Baran, Adriana Schulz. ACM Transactions on Graphics 42(4) (SIGGRAPH 2023).
+      year: 2023
+    - title: Self-Supervised Representation Learning for CAD
+      author: Benjamin Jones, Michael Hu, Milin Kodnongbua, Vladimir Kim, Adriana Schulz. CVPR 2023.
+      year: 2023
     - title: Computational Design of Passive Grippers
       author: <b>Milin Kodnongbua</b>, Ian Good, Yu Lou, Jeffrey Lipton, Adriana Schulz. ACM Transactions on Graphics (SIGGRAPH 2022), 41(4) 
       year: 2022
@@ -29,11 +47,13 @@
   contents:
     - year: 2022
       description: 
+        - key: Honorable Mention
+          value: ICPC World Finals 2022
         - key: 10th Place
           value: ICPC North America Championship 2022
           contents:
             - First-to-solve Problem A
-            - Advanced to ICPC World Finals 2023
+            - Advanced to ICPC World Finals 2022
         - key: 1st Place
           value: ICPC Pacific Northwest Regional Contest 2021
     - year: 2018-2021
@@ -54,12 +74,24 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: Adobe, Seattle, USA
+      year: Jun - Sep 2026
+      description_nl: Developed a neuro-symbolic method for resizing Adobe Express templates while preserving content, reading order, and style.
+    - title: Research Intern
+      institution: Microsoft, Redmond, USA
+      year: Jun - Sep 2023
+      description_nl: Formulated 3D server layouts for immersion cooling as a mixed-integer linear program and paired it with a genetic algorithm for scalability. Published in ACM TOG (SIGGRAPH Asia 2024).
+    - title: Ph.D. Research
+      institution: University of Washington, Seattle, USA
+      year: 2022 - Present
+      description_nl: Computational design, 3D/CAD representations, neuro-symbolic generation and editing, and shape-program optimization, advised by Professor Adriana Schulz.
     - title: Research Assistant
       institution: University of Washington, Seattle, USA
       year: 2020 - 2022
       description:
         - key: "Lead author - Computational Design of Passive Grippers"
-          value: Developed an algorithm to design a passive gripper, one that does not exert force on an object, and find a valid robot trajectory to grab any given object. The gripper can be 3D printed and mounted on the robot arm to enable assembly lines to quickly and easily be re-purposed to produce new products in need.
+          value: Developed an algorithm that co-designs a 3D-printable passive gripper and a collision-free grasp trajectory for a given object and pose, without additional gripper actuation.
         - key: "Contribution - Knitting Simulation"
           value: Implemented a knitted cloth simulator in C++, which is typically used in animations and games. The simulator works at the yarn level, providing matching results with real knitted clothes. Implemented a conversion pipeline for transforming a 3D stitch mesh model to a collection of yarn curves to be used with the cloth simulator.
     - title: Teaching Assistant
@@ -79,6 +111,9 @@
 - title: Projects
   type: time_table
   contents:
+    - title: Jummify — Vocabulary Learning App
+      year: 2024 - Present
+      description_nl: Designed and built a Next.js web app for vocabulary learning using spaced repetition and community-created content, available at https://jummify.com.
     - title: Emnote — Handwritten Note-taking Application
       year: 2018 - Present
       description_nl:
@@ -113,8 +148,8 @@
   type: map
   contents:
     - name: Languages
-      value: C/C++, C#, Javascript, Typescript, Python, Java, HTML, CSS, Latex, SystemVerilog, R
+      value: C/C++, C#, JavaScript, TypeScript, Python, Java, HTML, CSS, LaTeX, SystemVerilog, R
     - name: Tools/Libraries
-      value: Git, CMake, OpenMP, CGAL, Libigl, PyTorch, React, Jekyll, Firebase
+      value: Git, CMake, OpenMP, CGAL, libigl, PyTorch, Gurobi, React, Next.js, Jekyll, Firebase
     - name: General
       value: Algorithms, Data Structures, Web Programming, Deep Learning

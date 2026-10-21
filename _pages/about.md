@@ -2,27 +2,31 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student @ <a href='https://uw.edu'>UW</a> (<a href="https://www.computationaldesign.group/">Computational Design Group</a>).
+subtitle: Computer Science Ph.D. Student @ <a href="https://uw.edu">UW</a> · Computational Design &amp; Machine Learning
 
 profile:
   align: right
   image: prof_pic.jpg
+  image_alt: Milin Kodnongbua
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Bill and Melinda Gates Center</p>
-    <p>for Computer Science and Engineering</p>
-    <p>3800 E Stevens Way NE</p>
-    <p>Seattle, WA 98195</p>
+    <p>Providence, Rhode Island, USA</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Milin is a Ph.D. student in Computer Science at the University of Washington (UW), Seattle. He is advised by Professor [Adriana Schulz](https://homes.cs.washington.edu/~adriana/) and is a part of Graphics and Imaging Laboratory Lab ([GRAIL](https://grail.cs.washington.edu/)). Milin's interests are in the domain of computational design and fabrication, where we use computational tools to complement advanced manufacturing techniques, like CNC machines, knitting machines, and 3D printing, to build novel physical artifacts. Currently, his research focuses on representations for computer-aided design (CAD) for optimization and editing.
+I am a Computer Science Ph.D. student at the University of Washington, advised by [Adriana Schulz](https://homes.cs.washington.edu/~adriana/) in the [Computational Design Group](https://www.computationaldesign.group/) and the Graphics and Imaging Laboratory ([GRAIL](https://grail.cs.washington.edu/)). I expect to graduate in **June 2027**.
 
-**Milin is currently looking for a full-time opportunity. You can take a look at my [CV](/assets/pdf/mkodnongbua-cv-202609.pdf). Please don't hesitate to email me at [milink [at] cs.washington.edu](mailto:milink [at] cs.washington.edu).**
+**I am seeking full-time research and engineering opportunities for 2027. I am based in Providence, RI, and open to working anywhere in the United States.** Please [email me](mailto:milink@cs.washington.edu) if my background is a fit.
 
-Milin is also an active competitive programmers since 2017 with multiple honors. His team, representing the University of Washington, placed in the top 10 in the [ICPC North America Championship 2022](https://nac.icpc.global/) and received honorable mention in the ICPC World Finals 2022 in Luxor, Egypt. Milin was the coach for 2023--2025 UW ICPC teams.
+Download my [CV (PDF)]({{ '/assets/pdf/cv.pdf' | relative_url }}).
 
-Milin's personal interests includes photography, playing musical instruments, language learning, badminton, graphics design, and content creation. Milin is an intermediate Korean learner and likes to watch Korean dramas in his free time. Also check his piano and guitar performance on [his YouTube channel](https://www.youtube.com/@milmillin).
+My research combines **computational design, machine learning, and optimization** to generate and edit structured 3D content. I work on CAD representations, shape programs, and neuro-symbolic methods that connect design intent to editable digital models and physical artifacts. Recent projects include text-driven physical image composition in [Diceplay](https://www.computationaldesign.group/publications/diceplay), gradient-based shape-program optimization in [Design for Descent](https://www.computationaldesign.group/publications/design-for-descent), and zero-shot CAD editing in [ReparamCAD](https://doi.org/10.1145/3610548.3618219).
+
+During my **Adobe research internship (2026)**, I developed a neuro-symbolic method for resizing Adobe Express templates while preserving their content, reading order, and style. At **Microsoft (2023)**, I formulated dense server layouts for immersion cooling as a mixed-integer linear program and paired it with a genetic algorithm for scalability. The [published study](https://doi.org/10.1145/3687965) reports server-volume reductions of 25–52% compared with traditional flat designs.
+
+I have competed in programming contests since 2017. My honors include an **IOI bronze medal (2018)**, **10th place at the ICPC North America Championship (2022)**, and an **honorable mention at the ICPC World Finals (2022)**. I also coached UW's ICPC teams from 2023 to 2025. [More about competitive programming]({{ '/projects/comp-prog/' | relative_url }}).
+
+Outside research, I enjoy photography, music, language learning, badminton, graphic design, and content creation. I am learning Korean and share piano and guitar performances on [YouTube](https://www.youtube.com/@milmillin).

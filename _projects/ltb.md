@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Loop Termination Buffer
-description: A SystemVerilog implementation of Loop Termination Buffer, an extension to branch predictor, on BlackParrot processor.
+description: A SystemVerilog loop-termination predictor integrated into the BlackParrot RISC-V processor.
 img: assets/img/ltb.png
 importance: 5
 category: class
@@ -14,7 +14,7 @@ selected: true
     </div>
 </div>
 
-I implemented a branch predictor that predicts the branch pattern $$(1^N0)^M$$ where $$N$$ is the inner loop size and $$M$$ is the outer loop size, and successfully integrated to the [BlackParrot](https://github.com/black-parrot/black-parrot) processor. The work is heavily based on a paper [Loop Termination Prediction](https://cseweb.ucsd.edu/~calder/papers/ISHPC2K-LOOP.pdf) by Timothy Sherwood and Brad Calder.
+I implemented a SystemVerilog branch predictor for the pattern $$(1^N0)^M$$, where $$N$$ is the inner-loop size and $$M$$ is the outer-loop size, and integrated it into the [BlackParrot](https://github.com/black-parrot/black-parrot) RISC-V processor. The implementation is based on [Loop Termination Prediction](https://cseweb.ucsd.edu/~calder/papers/ISHPC2K-LOOP.pdf) by Timothy Sherwood and Brad Calder.
 
 <div class="links">
 <a href="https://github.com/milmillin/black-parrot" class="btn btn-sm z-depth-0" role="button">Code</a>

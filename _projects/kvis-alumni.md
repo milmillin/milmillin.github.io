@@ -1,7 +1,7 @@
 ---
 layout: page
 title: KVIS Alumni Website
-description: A community of graduated KVIS students.
+description: An alumni directory built with React and Firebase, with filters for location and field of study.
 img: assets/img/kvis-alumni-listing.png
 importance: 4
 category: personal
