@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Computer Science Ph.D. student at the University of Washington, advised by [Adriana Schulz](https://homes.cs.washington.edu/~adriana/) in the [Computational Design Group](https://www.computationaldesign.group/) and the Graphics and Imaging Laboratory ([GRAIL](https://grail.cs.washington.edu/)). I expect to graduate in **June 2027**.
 
-**I am seeking full-time research and engineering opportunities for 2027. I am based in Providence, RI, and open to working anywhere in the United States.** Please [email me](mailto:milink@cs.washington.edu) if my background is a fit.
+{% comment %}**I am seeking full-time research and engineering opportunities for 2027. I am based in Providence, RI, and open to working anywhere in the United States.** Please [email me](mailto:milink@cs.washington.edu) if my background is a fit.{% endcomment %}
 
 Download my [CV (PDF)]({{ '/assets/pdf/cv.pdf' | relative_url }}).
 
